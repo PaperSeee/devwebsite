@@ -1,0 +1,19 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .code-symbol { fill: #4A90E2; }
+        .cube { fill: #2C3E50; }
+    </style>
+    
+    <!-- Code Symbol -->
+    <g class="code-symbol">
+        <path d="M20 15L10 25L20 35" stroke="#4A90E2" stroke-width="3" fill="none"/>
+        <path d="M30 15L40 25L30 35" stroke="#4A90E2" stroke-width="3" fill="none"/>
+    </g>
+    
+    <!-- Cube Element -->
+    <g class="cube">
+        <path d="M25 5L35 10L25 15L15 10L25 5" fill="#2C3E50"/>
+        <path d="M35 10L35 20L25 25L25 15L35 10" fill="#34495E"/>
+        <path d="M25 15L25 25L15 20L15 10L25 15" fill="#2C3E50"/>
+    </g>
+</svg>
