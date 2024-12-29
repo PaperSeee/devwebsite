@@ -50,11 +50,11 @@ nav.scrolled {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-right: 1rem; /* Ajoute une marge à droite */
+    margin-right: 5rem; /* Ajoute une marge à droite */
 }
 
 .nav-links a {
-    color: white;
+    color: #FFFF00; /* Changed to yellow, you can replace with any color you want */
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -382,8 +382,7 @@ footer {
 }
 
 .contact-info-item i {
-    color: var(--accent-color);
-    font-size: 1.2rem;
+    color: white; /* Change contact icons to white */
 }
 
 .footer-social {
@@ -406,6 +405,10 @@ footer {
 .social-icon:hover {
     background: var(--accent-color);
     transform: translateY(-5px);
+}
+
+.social-icon i {
+    color: white; /* Change social icons to white */
 }
 
 .footer-bottom {
@@ -453,6 +456,10 @@ footer {
 
 .footer-links a:hover {
     color: white;
+}
+
+.footer-links a i {
+    color: white; /* Change icon color to white */
 }
 
 .footer-bottom {
